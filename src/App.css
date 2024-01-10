@@ -1,0 +1,59 @@
+.bg-img {
+    background-image: url('/public/images/tree-736885_1280.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.bs-effect {
+    background: rgba(61, 36, 78, 0.55);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(61, 36, 78, 0.275);
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.5) !important;
+    /* Firefox */
+}
+
+::-ms-input-placeholder {
+    /* Edge 12 -18 */
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.fixed-width{
+    width: 400px !important;
+}
+
+.right i{
+    color: white;
+    font-size: 100px;
+}
+
+.my-input{
+    position: relative;
+}
+
+.my-eye{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
