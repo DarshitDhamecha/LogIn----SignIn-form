@@ -158,7 +158,7 @@ export default function LoginFrom() {
                                 <button type='submit' className='btn btn-outline-light'>Submit</button>
                             </div>
                             <div className='mt-2 text-center'>
-                                <p>You alrady have account please <Link to='/SignInForm' className='text-primary'>Sign in</Link> </p>
+                                <p>You alrady have account please <Link to='/SignInForm' className='text-primary fs-4'>Sign in</Link> </p>
                             </div>
                         </div>
                     </div>

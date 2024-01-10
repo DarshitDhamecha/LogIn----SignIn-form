@@ -99,7 +99,7 @@ export default function SignInForm() {
                                 )}
                             </div>
                             <div className='mt-2 text-center'>
-                                <p>You don't have account please <Link to='/' className='text-primary'>Login</Link> </p>
+                                <p>You don't have account please <Link to='/' className='text-primary fs-4'>Login</Link> </p>
                             </div>
                         </div>
                     </div>
