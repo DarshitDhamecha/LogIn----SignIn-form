@@ -6,6 +6,10 @@
     width: 100%;
 }
 
+h6 {
+    margin: 0;
+}
+
 .bs-effect {
     background: rgba(61, 36, 78, 0.55);
     -webkit-backdrop-filter: blur(10px);
@@ -39,21 +43,31 @@ input[type=number] {
     -moz-appearance: textfield;
 }
 
-.fixed-width{
+.fixed-width {
     width: 400px !important;
 }
 
-.right i{
+.right i {
     color: white;
     font-size: 100px;
 }
 
-.my-input{
+.my-input {
     position: relative;
 }
 
-.my-eye{
+.my-eye {
     position: absolute;
     top: 5px;
     right: 10px;
+}
+
+.bs-width {
+    width: 75%;
+}
+
+@media (max-width:500px) {
+    .bs-width {
+        width: 95%;
+    }
 }

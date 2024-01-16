@@ -45,7 +45,7 @@ export default function SignInForm() {
         <>
             <form onSubmit={formik.handleSubmit}>
                 <div className='bg-img w-100 d-flex justify-content-center align-items-center'>
-                    <div className='bs-effect p-3 rounded-3 text-white w-75'>
+                    <div className='bs-effect p-3 rounded-3 text-white bs-width'>
                         <div className='border-bottom border-1 border-white'>
                             <h2>Sign in</h2>
                         </div>

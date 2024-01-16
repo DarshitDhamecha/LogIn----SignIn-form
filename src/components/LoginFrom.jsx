@@ -55,7 +55,7 @@ export default function LoginFrom() {
         <>
             <form onSubmit={formik.handleSubmit}>
                 <div className='bg-img w-100 d-flex align-items-center justify-content-center'>
-                    <div className='bs-effect p-3 rounded-3 text-white w-75 '>
+                    <div className='bs-effect p-3 rounded-3 text-white bs-width'>
                         <div className='border-bottom border-1 border-white'>
                             <h2>Login</h2>
                         </div>
@@ -158,7 +158,7 @@ export default function LoginFrom() {
                                 <button type='submit' className='btn btn-outline-light'>Submit</button>
                             </div>
                             <div className='mt-2 text-center'>
-                                <p>You alrady have account please <Link to='/SignInForm' className='text-primary fs-4'>Sign in</Link> </p>
+                                <p>You alrady have account please <Link to='/SignInForm' className='text-primary fs-4'>SignIn</Link> </p>
                             </div>
                         </div>
                     </div>
