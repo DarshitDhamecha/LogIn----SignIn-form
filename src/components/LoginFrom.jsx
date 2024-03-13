@@ -74,7 +74,7 @@ export default function LoginFrom() {
                             </div>
                             <div className='mt-3'>
                                 <h6>Enter Email :</h6>
-                                <input type="email" name='email' onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.email} className='form-control bg-transparent text-white' placeholder='Enter Your Email...' />
+                                <input type="email" name='email' onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.email} className='form-control bg-transparent text-white' placeholder='Enter Your Email...' inputMode='email' />
                                 <div className="text-danger">
                                     {formik.touched.email &&
                                         formik.errors.email && (
@@ -86,7 +86,7 @@ export default function LoginFrom() {
                             </div>
                             <div className='mt-3'>
                                 <h6>Enter Mobile-Number :</h6>
-                                <input type="number" name='phone' onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.phone} className='form-control bg-transparent text-white' placeholder='Enter Your Number...' />
+                                <input type="number" name='phone' onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.phone} className='form-control bg-transparent text-white' placeholder='Enter Your Number...' inputMode='numeric' />
                                 <div className="text-danger">
                                     <div className="text-danger">
                                         {formik.touched.phone &&
@@ -111,9 +111,9 @@ export default function LoginFrom() {
                                         placeholder='Enter Your Password...' />
                                     <span className='my-eye' onClick={togglePasswordVisibility}>
                                         {showPassword ? (
-                                            <i class="fa-regular fa-eye"></i> // Eye-slash icon for hide
+                                            <i class="fa-regular fa-eye"></i> 
                                         ) : (
-                                            <i class="fa-regular fa-eye-slash"></i> // Eye icon for show
+                                            <i class="fa-regular fa-eye-slash"></i> 
                                         )}
                                     </span>
                                 </div>
@@ -139,9 +139,9 @@ export default function LoginFrom() {
                                         placeholder='Retype Your Password...' />
                                     <span className='my-eye' onClick={toggleRetypePasswordVisibility}>
                                         {showRetypePass ? (
-                                            <i class="fa-regular fa-eye"></i> // Eye-slash icon for hide
+                                            <i class="fa-regular fa-eye"></i> 
                                         ) : (
-                                            <i class="fa-regular fa-eye-slash"></i> // Eye icon for show
+                                            <i class="fa-regular fa-eye-slash"></i> 
                                         )}
                                     </span>
                                 </div>

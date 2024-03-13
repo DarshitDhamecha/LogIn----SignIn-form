@@ -52,7 +52,7 @@ export default function SignInForm() {
                         <div className='text-white mt-3'>
                             <div className='mt-3'>
                                 <h6>Enter Email :</h6>
-                                <input type="email" name='email_signin' onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.email_signin} className='form-control bg-transparent text-white' placeholder='Enter Your Email...' />
+                                <input type="email" name='email_signin' onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.email_signin} className='form-control bg-transparent text-white' placeholder='Enter Your Email...' inputMode='email' />
                                 <div className="text-danger">
                                     {formik.touched.email_signin &&
                                         formik.errors.email_signin && (
@@ -72,7 +72,7 @@ export default function SignInForm() {
                                         onBlur={formik.handleBlur}
                                         value={formik.values.password_signin}
                                         className='form-control bg-transparent text-white'
-                                        placeholder='Enter Your Password...' />
+                                        placeholder='Enter Your Password...' inputMode='numeric' />
                                     <span className='my-eye' onClick={togglePasswordType}>
                                         {isshow ? (
                                             <i class="fa-regular fa-eye"></i>
